@@ -47,11 +47,11 @@ You can deploy this bot anywhere.
 
 <i>**[Watch Deploying Tutorial...](https://youtu.be/gNCd8xuNgM8)**</i>
 
-<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/itsyogieu/TechMagazine-AutoFilterBot&branch=master&name=tmafbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/itsyogieu/iPapkornbot&branch=master&name=tmafbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 
-<a target="_blank" href="https://render.com/deploy?repo=https://github.com/itsyogieu/TechMagazine-AutoFilterBot"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
+<a target="_blank" href="https://render.com/deploy?repo=https://github.com/itsyogieu/iPapkornbot"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
 
-<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/itsyogieu/TechMagazine-AutoFilterBot"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
+<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/itsyogieu/iPapkornbot"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 
 
 <p>
@@ -65,7 +65,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/itsyogieu/TechMagazine-AutoFilterBot
+git clone https://github.com/itsyogieu/iPapkornbot
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
