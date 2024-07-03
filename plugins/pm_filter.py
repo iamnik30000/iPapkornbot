@@ -408,7 +408,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         await query.answer()
         btnsub = [[
-                InlineKeyboardButton("𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
                 ]]
         lazy = await client.send_cached_media(
             chat_id=query.from_user.id,
@@ -843,7 +843,7 @@ async def manual_filters(client, message, text=False):
                             )
                     elif btn == "[]":
                         btnsub = [[
-                        InlineKeyboardButton("𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲", url='https://t.me/DailyUpdatexyz')
+                        InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
                         ]]
                         lazy = await client.send_cached_media(
                             group_id,
