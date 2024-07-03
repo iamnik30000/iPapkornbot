@@ -151,9 +151,9 @@ async def start(client, message):
                 await asyncio.sleep(100)
                 await lazy.delete()
                 btnlazy = [[
-                    InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", url='https://t.me/iPapkornAlphaa')
+                    InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
                     ]]
-                await client.send_message(chat_id = message.from_user.id, text=f"<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!\n\nᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴅᴇʟᴇᴛᴇᴅ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ 👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
+                await client.send_message(chat_id = message.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b>"(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n\<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤️👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
             except FloodWait as e:
                 await asyncio.sleep(e.x)
@@ -172,9 +172,9 @@ async def start(client, message):
                 await asyncio.sleep(100)
                 await lazy.delete()
                 btnlazy = [[
-                    InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", url='https://t.me/iPapkornAlphaa')
+                    InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
                     ]]
-                await client.send_message(chat_id = message.from_user.id, text=f"<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!\n\nᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴅᴇʟᴇᴛᴇᴅ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ 👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
+                await client.send_message(chat_id = message.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b>"(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤️👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
             except Exception as e:
                 logger.warning(e, exc_info=True)
@@ -246,9 +246,9 @@ async def start(client, message):
             await asyncio.sleep(100)
             await lazy.delete()
             btnlazy = [[
-                    InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", url='https://t.me/iPapkornAlphaa')
+                    InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
                     ]]
-            await client.send_message(chat_id = message.from_user.id, text=f"<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!\n\nᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴅᴇʟᴇᴛᴇᴅ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ 👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
+            await client.send_message(chat_id = message.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b>"(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤️👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
             filetype = msg.media
             file = getattr(msg, filetype.value)
@@ -291,9 +291,9 @@ async def start(client, message):
     await asyncio.sleep(100)
     await lazy.delete()
     btnlazy = [[
-            InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", url='https://t.me/iPapkornAlphaa')
+            InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
             ]]
-    await client.send_message(chat_id = message.from_user.id, text=f"<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ !!\n\nᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴅᴇʟᴇᴛᴇᴅ ᴠɪᴅᴇᴏ / ꜰɪʟᴇ 👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
+    await client.send_message(chat_id = message.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b>"(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤️👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
