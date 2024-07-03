@@ -233,7 +233,7 @@ async def start(client, message):
         pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
         try:
             btnsub = [[
-                InlineKeyboardButton(""✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
                 ]]
             lazy = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -278,7 +278,7 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     btnsub = [[
-                InlineKeyboardButton("𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
                 ]]
     lazy = await client.send_cached_media(
         chat_id=message.from_user.id,
