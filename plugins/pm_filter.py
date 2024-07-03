@@ -359,7 +359,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 btnsub = [[
-                InlineKeyboardButton("𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
                 ]]
                 lazy = await client.send_cached_media(
                     chat_id=query.from_user.id,
