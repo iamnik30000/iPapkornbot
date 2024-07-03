@@ -138,7 +138,7 @@ async def start(client, message):
                 f_caption = f"{title}"
             try:
                 btnsub = [[
-                InlineKeyboardButton("𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
                 ]]
                 lazy = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -159,7 +159,7 @@ async def start(client, message):
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
                 btnsub = [[
-                InlineKeyboardButton("𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
                 ]]
                 lazy = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -233,7 +233,7 @@ async def start(client, message):
         pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
         try:
             btnsub = [[
-                InlineKeyboardButton("𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton(""✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
                 ]]
             lazy = await client.send_cached_media(
                 chat_id=message.from_user.id,
