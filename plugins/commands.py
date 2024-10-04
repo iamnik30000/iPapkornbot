@@ -138,7 +138,7 @@ async def start(client, message):
                 f_caption = f"{title}"
             try:
                 btnsub = [[
-                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdatexyz')
                 ]]
                 lazy = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -151,7 +151,7 @@ async def start(client, message):
                 await asyncio.sleep(100)
                 await lazy.delete()
                 btnlazy = [[
-                    InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
+                    InlineKeyboardButton("Get File Again", url='https://t.me/iPapkornAlphaa')
                     ]]
                 await client.send_message(chat_id = message.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b> \n(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n\<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
@@ -159,7 +159,7 @@ async def start(client, message):
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
                 btnsub = [[
-                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdatexyz')
                 ]]
                 lazy = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -172,7 +172,7 @@ async def start(client, message):
                 await asyncio.sleep(100)
                 await lazy.delete()
                 btnlazy = [[
-                    InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
+                    InlineKeyboardButton("Get File Again", url='https://t.me/iPapkornAlphaa')
                     ]]
                 await client.send_message(chat_id = message.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b> \n(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
@@ -233,7 +233,7 @@ async def start(client, message):
         pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
         try:
             btnsub = [[
-                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdatexyz')
                 ]]
             lazy = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -246,7 +246,7 @@ async def start(client, message):
             await asyncio.sleep(100)
             await lazy.delete()
             btnlazy = [[
-                    InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
+                    InlineKeyboardButton("Get File Again", url='https://t.me/iPapkornAlphaa')
                     ]]
             await client.send_message(chat_id = message.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b> \n(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
@@ -278,7 +278,7 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     btnsub = [[
-                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdatexyz')
                 ]]
     lazy = await client.send_cached_media(
         chat_id=message.from_user.id,
@@ -291,7 +291,7 @@ async def start(client, message):
     await asyncio.sleep(100)
     await lazy.delete()
     btnlazy = [[
-            InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
+            InlineKeyboardButton("Get File Again", url='https://t.me/iPapkornAlphaa')
             ]]
     await client.send_message(chat_id = message.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b> \n(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
