@@ -359,7 +359,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 btnsub = [[
-                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdatexyz')
                 ]]
                 lazy = await client.send_cached_media(
                     chat_id=query.from_user.id,
@@ -373,7 +373,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await asyncio.sleep(100)
                 await lazy.delete()
                 btnlazy = [[
-                    InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
+                    InlineKeyboardButton("Get File Again", url='https://t.me/iPapkornAlphaa')
                     ]]
                 await client.send_message(chat_id = query.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b> \n(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
@@ -408,7 +408,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         await query.answer()
         btnsub = [[
-                InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
+                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdatexyz')
                 ]]
         lazy = await client.send_cached_media(
             chat_id=query.from_user.id,
@@ -422,7 +422,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await asyncio.sleep(100)
         await lazy.delete()
         btnlazy = [[
-                    InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
+                    InlineKeyboardButton(" Get File Again ", url='https://t.me/iPapkornAlphaa')
                     ]]
         await client.send_message(chat_id = query.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b> \n(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
 
@@ -843,7 +843,7 @@ async def manual_filters(client, message, text=False):
                             )
                     elif btn == "[]":
                         btnsub = [[
-                        InlineKeyboardButton("✐ᝰꜱᴜʙꜱᴄʀɪʙᴇ", url='https://t.me/DailyUpdatexyz')
+                        InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdatexyz')
                         ]]
                         lazy = await client.send_cached_media(
                             group_id,
@@ -857,7 +857,7 @@ async def manual_filters(client, message, text=False):
                         await asyncio.sleep(100)
                         await lazy.delete()
                         btnlazy = [[
-                            InlineKeyboardButton(" 𝙂𝙚𝙩 𝙁𝙞𝙡𝙚 𝘼𝙜𝙖𝙞𝙣 ", url='https://t.me/iPapkornAlphaa')
+                            InlineKeyboardButton(" Get File Again ", url='https://t.me/iPapkornAlphaa')
                             ]]
                         await client.send_message(chat_id = message.from_user.id, text=f"<b>Your Request Has Been Deleted👍🏻</b> \n(𝘋𝘶𝘦 𝘛𝘰 𝘈𝘷𝘰𝘪𝘥 𝘊𝘰𝘱𝘺𝘳𝘪𝘨𝘩𝘵𝘴 𝘐𝘴𝘴𝘶𝘦😌) \n\n<b>Iꜰ Yᴏᴜ Wᴀɴᴛ Tʜᴀᴛ Fɪʟᴇ, Rᴇqᴜᴇꜱᴛ Aɢᴀɪɴ ❤👇</b>",reply_markup=InlineKeyboardMarkup(btnlazy))
                     else:
