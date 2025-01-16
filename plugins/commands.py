@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/DailyUpdateeeeeee')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/+eb1GV-WIrp9kYjk1')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/DailyUpdateeeeeee')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+eb1GV-WIrp9kYjk1')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/DailyUpdateeeeeee')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+eb1GV-WIrp9kYjk1')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -138,7 +138,7 @@ async def start(client, message):
                 f_caption = f"{title}"
             try:
                 btnsub = [[
-                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdateeeeeee')
+                InlineKeyboardButton("Subscribe", url='https://t.me/+eb1GV-WIrp9kYjk1')
                 ]]
                 lazy = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -159,7 +159,7 @@ async def start(client, message):
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
                 btnsub = [[
-                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdateeeeeee')
+                InlineKeyboardButton("Subscribe", url='https://t.me/+eb1GV-WIrp9kYjk1')
                 ]]
                 lazy = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -233,7 +233,7 @@ async def start(client, message):
         pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
         try:
             btnsub = [[
-                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdateeeeeee')
+                InlineKeyboardButton("Subscribe", url='https://t.me/+eb1GV-WIrp9kYjk1')
                 ]]
             lazy = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -278,7 +278,7 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     btnsub = [[
-                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdateeeeeee')
+                InlineKeyboardButton("Subscribe", url='https://t.me/+eb1GV-WIrp9kYjk1')
                 ]]
     lazy = await client.send_cached_media(
         chat_id=message.from_user.id,
