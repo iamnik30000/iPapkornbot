@@ -359,7 +359,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             else:
                 btnsub = [[
-                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdateeeeeee')
+                InlineKeyboardButton("Subscribe", url='https://t.me/+eb1GV-WIrp9kYjk1')
                 ]]
                 lazy = await client.send_cached_media(
                     chat_id=query.from_user.id,
@@ -408,7 +408,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         await query.answer()
         btnsub = [[
-                InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdateeeeeee')
+                InlineKeyboardButton("Subscribe", url='https://t.me/+eb1GV-WIrp9kYjk1')
                 ]]
         lazy = await client.send_cached_media(
             chat_id=query.from_user.id,
@@ -433,7 +433,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/DailyUpdateeeeeee')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+eb1GV-WIrp9kYjk1')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -464,7 +464,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/DailyUpdateeeeeee'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+eb1GV-WIrp9kYjk1'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -843,7 +843,7 @@ async def manual_filters(client, message, text=False):
                             )
                     elif btn == "[]":
                         btnsub = [[
-                        InlineKeyboardButton("Subscribe", url='https://t.me/DailyUpdateeeeeee')
+                        InlineKeyboardButton("Subscribe", url='https://t.me/+eb1GV-WIrp9kYjk1')
                         ]]
                         lazy = await client.send_cached_media(
                             group_id,
